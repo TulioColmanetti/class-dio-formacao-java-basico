@@ -6,6 +6,8 @@ public class ExemploInstanciaObjeto {
 
         Pessoa pessoa = new Pessoa();
 
+        pessoa.setNome("Tulio");
+
         System.out.println(pessoa.getNome());
 
     }
